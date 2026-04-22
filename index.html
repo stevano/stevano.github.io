@@ -46,7 +46,14 @@
       padding: 1.5rem;
       margin-top: 1.5rem;
     }
-
+    
+    .circle-img {
+      width: 200px;
+      height: 200px; /* Width and height must be equal */
+      border-radius: 50%;
+      object-fit: cover; /* Prevents stretching if not perfectly square */
+    }
+    
     ul {
       padding-left: 1.2rem;
     }
@@ -72,6 +79,7 @@
 <body>
 
   <header>
+    <p><img src="https://avatars.githubusercontent.com/u/3082776?v=4" alt="Avatar" class="circle-img"></p>
     <h1>Stevano Cheung</h1>
     <p>Solution Architect</p>
   </header>
@@ -79,6 +87,7 @@
   <section>
     <h2>👋 About me</h2>
     <div class="card">
+      <p>\[Gravatar-profiel\]: [gravatar.com/stevano2013](https://gravatar.com/stevano2013)</p>
       <p>
         I am a Solution Architect, with the focus and interest in Salesforce,
         Enterprise Architecture and simplifying complex IT-landscapes. 
